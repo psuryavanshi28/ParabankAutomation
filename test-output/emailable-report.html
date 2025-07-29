@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">23</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">171,396</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.OpenAccountTest</td><td><a href="#m0">TC017_openSavingsAccount</a></td><td rowspan="1">1753792690580</td><td rowspan="1">5909</td></tr><tr class="failedeven"><td><a href="#m1">TC018_openCheckingAccount</a></td><td rowspan="1">1753792700286</td><td rowspan="1">3541</td></tr><tr class="failedeven"><td><a href="#m2">TC019_verifyAccountNumberDisplayed</a></td><td rowspan="1">1753792705628</td><td rowspan="1">5167</td></tr><tr class="failedodd"><td rowspan="1">tests.RegisterTest</td><td><a href="#m3">TC013_registerWithValidDetails</a></td><td rowspan="1">1753792736246</td><td rowspan="1">3252</td></tr><tr class="failedeven"><td rowspan="1">tests.TransferFundsTest</td><td><a href="#m4">TC025_verifySuccessfulFundTransfer</a></td><td rowspan="1">1753792684530</td><td rowspan="1">722</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.AccountOverviewTest</td><td><a href="#m5">TC021_viewAccountsOverviewSuccessfully</a></td><td rowspan="1">1753792785913</td><td rowspan="1">3997</td></tr><tr class="passedeven"><td><a href="#m6">TC022_verifyAccountNumbersDisplayed</a></td><td rowspan="1">1753792791441</td><td rowspan="1">5808</td></tr><tr class="passedodd"><td rowspan="3">tests.BillPayTest</td><td><a href="#m7">TC026_verifyBillPayPageLoads</a></td><td rowspan="1">1753792810027</td><td rowspan="1">9</td></tr><tr class="passedodd"><td><a href="#m8">TC027_submitValidBillPayment</a></td><td rowspan="1">1753792815229</td><td rowspan="1">292</td></tr><tr class="passedodd"><td><a href="#m9">TC028_submitWithMismatchedAccountNumbers</a></td><td rowspan="1">1753792820918</td><td rowspan="1">280</td></tr><tr class="passedeven"><td rowspan="3">tests.CustomeCareTest</td><td><a href="#m10">TC018_verifyCustomerCareNavigation</a></td><td rowspan="1">1753792655187</td><td rowspan="1">1164</td></tr><tr class="passedeven"><td><a href="#m11">TC019_submitValidCustomerCareForm</a></td><td rowspan="1">1753792659240</td><td rowspan="1">3687</td></tr><tr class="passedeven"><td><a href="#m12">TC020_submitWithoutMandatoryFields</a></td><td rowspan="1">1753792667077</td><td rowspan="1">6229</td></tr><tr class="passedodd"><td rowspan="1">tests.DemoTest</td><td><a href="#m13">verifyLaunch</a></td><td rowspan="1">1753792687435</td><td rowspan="1">1687</td></tr><tr class="passedeven"><td rowspan="2">tests.FooterLinkTest</td><td><a href="#m14">openAboutUsLinkInNewTab_TC009</a></td><td rowspan="1">1753792798710</td><td rowspan="1">2433</td></tr><tr class="passedeven"><td><a href="#m15">openServicesLinkInNewTab_TC010</a></td><td rowspan="1">1753792804280</td><td rowspan="1">648</td></tr><tr class="passedodd"><td rowspan="4">tests.ForgotLogin</td><td><a href="#m16">incorrectSSNForgotLoginInfoTest_TC007</a></td><td rowspan="1">1753792776898</td><td rowspan="1">1649</td></tr><tr class="passedodd"><td><a href="#m17">missingFieldsForgotLoginInfoTest_TC006</a></td><td rowspan="1">1753792774442</td><td rowspan="1">935</td></tr><tr class="passedodd"><td><a href="#m18">navigationToForgotLoginInfo_TC008</a></td><td rowspan="1">1753792779969</td><td rowspan="1">1848</td></tr><tr class="passedodd"><td><a href="#m19">validForgotLoginInfoTest_TC005</a></td><td rowspan="1">1753792769731</td><td rowspan="1">946</td></tr><tr class="passedeven"><td rowspan="4">tests.LoginTest</td><td><a href="#m20">InvalidLoginTest</a></td><td rowspan="1">1753792751664</td><td rowspan="1">3025</td></tr><tr class="passedeven"><td><a href="#m21">blankCredentialsTest</a></td><td rowspan="1">1753792765523</td><td rowspan="1">463</td></tr><tr class="passedeven"><td><a href="#m22">invalidPasswordTest</a></td><td rowspan="1">1753792758785</td><td rowspan="1">1944</td></tr><tr class="passedeven"><td><a href="#m23">validLoginTest</a></td><td rowspan="1">1753792749097</td><td rowspan="1">1164</td></tr><tr class="passedodd"><td rowspan="1">tests.OpenAccountTest</td><td><a href="#m24">TC020_negativeOpenAccountWithoutFromAccount</a></td><td rowspan="1">1753792715233</td><td rowspan="1">12325</td></tr><tr class="passedeven"><td rowspan="2">tests.RegisterTest</td><td><a href="#m25">TC014_registerWithMissingFields</a></td><td rowspan="1">1753792729070</td><td rowspan="1">3607</td></tr><tr class="passedeven"><td><a href="#m26">TC015_registerWithPasswordMismatch</a></td><td rowspan="1">1753792743824</td><td rowspan="1">1109</td></tr><tr class="passedodd"><td rowspan="1">tests.TransferFundsTest</td><td><a href="#m27">TC024_verifyTransferFundsPageLoads</a></td><td rowspan="1">1753792678920</td><td rowspan="1">4</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">tests.OpenAccountTest#TC017_openSavingsAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at pages.OpenAccountPage.selectFromAccount(OpenAccountPage.java:46)
+	at tests.OpenAccountTest.TC017_openSavingsAccount(OpenAccountTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.OpenAccountTest#TC018_openCheckingAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at pages.OpenAccountPage.selectFromAccount(OpenAccountPage.java:46)
+	at tests.OpenAccountTest.TC018_openCheckingAccount(OpenAccountTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.OpenAccountTest#TC019_verifyAccountNumberDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at pages.OpenAccountPage.selectFromAccount(OpenAccountPage.java:46)
+	at tests.OpenAccountTest.TC019_verifyAccountNumberDisplayed(OpenAccountTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.RegisterTest#TC013_registerWithValidDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Registration failed or message not found. expected [true] but found [false]
+	at tests.RegisterTest.TC013_registerWithValidDetails(RegisterTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.TransferFundsTest#TC025_verifySuccessfulFundTransfer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Transfer failed or confirmation message incorrect. expected [true] but found [false]
+	at tests.TransferFundsTest.TC025_verifySuccessfulFundTransfer(TransferFundsTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.AccountOverviewTest#TC021_viewAccountsOverviewSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.AccountOverviewTest#TC022_verifyAccountNumbersDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.BillPayTest#TC026_verifyBillPayPageLoads</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.BillPayTest#TC027_submitValidBillPayment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.BillPayTest#TC028_submitWithMismatchedAccountNumbers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.CustomeCareTest#TC018_verifyCustomerCareNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.CustomeCareTest#TC019_submitValidCustomerCareForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.CustomeCareTest#TC020_submitWithoutMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.DemoTest#verifyLaunch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.FooterLinkTest#openAboutUsLinkInNewTab_TC009</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.FooterLinkTest#openServicesLinkInNewTab_TC010</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.ForgotLogin#incorrectSSNForgotLoginInfoTest_TC007</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.ForgotLogin#missingFieldsForgotLoginInfoTest_TC006</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">tests.ForgotLogin#navigationToForgotLoginInfo_TC008</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">tests.ForgotLogin#validForgotLoginInfoTest_TC005</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">tests.LoginTest#InvalidLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">tests.LoginTest#blankCredentialsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">tests.LoginTest#invalidPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">tests.LoginTest#validLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">tests.OpenAccountTest#TC020_negativeOpenAccountWithoutFromAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">tests.RegisterTest#TC014_registerWithMissingFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">tests.RegisterTest#TC015_registerWithPasswordMismatch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">tests.TransferFundsTest#TC024_verifyTransferFundsPageLoads</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

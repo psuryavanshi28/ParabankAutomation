@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <!-- Listener must be inside <suite> -->
+    <listeners>
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="tests.CustomeCareTest"/>
+            <class name="tests.TransferFundsTest"/>
+            <class name="base.BaseTest"/>
+            <class name="tests.DemoTest"/>
+            <class name="tests.OpenAccountTest"/>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.ForgotLogin"/>
+            <class name="tests.AccountOverviewTest"/>
+            <class name="tests.FooterLinkTest"/>
+            <class name="tests.BillPayTest"/>
+        </classes>
+    </test>
+</suite>

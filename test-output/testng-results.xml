@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="23" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-29T18:07:29 IST" name="Suite" finished-at="2025-07-29T18:10:21 IST" duration-ms="171396">
+    <groups>
+    </groups>
+    <test started-at="2025-07-29T18:07:29 IST" name="Test" finished-at="2025-07-29T18:10:21 IST" duration-ms="171396">
+      <class name="tests.ForgotLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:26 IST" name="setup" finished-at="2025-07-29T18:09:29 IST" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validForgotLoginInfoTest_TC005()[pri:1, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:29 IST" name="validForgotLoginInfoTest_TC005" finished-at="2025-07-29T18:09:30 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validForgotLoginInfoTest_TC005 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:30 IST" name="tearDown" finished-at="2025-07-29T18:09:30 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:30 IST" name="setup" finished-at="2025-07-29T18:09:34 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="missingFieldsForgotLoginInfoTest_TC006()[pri:2, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:34 IST" name="missingFieldsForgotLoginInfoTest_TC006" finished-at="2025-07-29T18:09:35 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingFieldsForgotLoginInfoTest_TC006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:35 IST" name="tearDown" finished-at="2025-07-29T18:09:35 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:35 IST" name="setup" finished-at="2025-07-29T18:09:36 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="incorrectSSNForgotLoginInfoTest_TC007()[pri:3, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:36 IST" name="incorrectSSNForgotLoginInfoTest_TC007" finished-at="2025-07-29T18:09:38 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectSSNForgotLoginInfoTest_TC007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:38 IST" name="tearDown" finished-at="2025-07-29T18:09:38 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:38 IST" name="setup" finished-at="2025-07-29T18:09:39 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigationToForgotLoginInfo_TC008()[pri:4, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:39 IST" name="navigationToForgotLoginInfo_TC008" finished-at="2025-07-29T18:09:41 IST" duration-ms="1848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToForgotLoginInfo_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ForgotLogin@7c7a06ec]" started-at="2025-07-29T18:09:41 IST" name="tearDown" finished-at="2025-07-29T18:09:41 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ForgotLogin -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:05 IST" name="setup" finished-at="2025-07-29T18:09:09 IST" duration-ms="4052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:1, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:09 IST" name="validLoginTest" finished-at="2025-07-29T18:09:10 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:10 IST" name="tearDown" finished-at="2025-07-29T18:09:10 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:10 IST" name="setup" finished-at="2025-07-29T18:09:11 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLoginTest()[pri:2, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:11 IST" name="InvalidLoginTest" finished-at="2025-07-29T18:09:14 IST" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:14 IST" name="tearDown" finished-at="2025-07-29T18:09:14 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:14 IST" name="setup" finished-at="2025-07-29T18:09:18 IST" duration-ms="3984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPasswordTest()[pri:3, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:18 IST" name="invalidPasswordTest" finished-at="2025-07-29T18:09:20 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:20 IST" name="tearDown" finished-at="2025-07-29T18:09:20 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:20 IST" name="setup" finished-at="2025-07-29T18:09:25 IST" duration-ms="4683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="blankCredentialsTest()[pri:4, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:25 IST" name="blankCredentialsTest" finished-at="2025-07-29T18:09:25 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankCredentialsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@1d296da]" started-at="2025-07-29T18:09:25 IST" name="tearDown" finished-at="2025-07-29T18:09:26 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.DemoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DemoTest@5bf0d49]" started-at="2025-07-29T18:08:05 IST" name="setup" finished-at="2025-07-29T18:08:07 IST" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLaunch()[pri:0, instance:tests.DemoTest@5bf0d49]" started-at="2025-07-29T18:08:07 IST" name="verifyLaunch" finished-at="2025-07-29T18:08:09 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DemoTest@5bf0d49]" started-at="2025-07-29T18:08:09 IST" name="tearDown" finished-at="2025-07-29T18:08:09 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DemoTest -->
+      <class name="tests.TransferFundsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:07:53 IST" name="setup" finished-at="2025-07-29T18:07:57 IST" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:07:57 IST" name="setUpTest" finished-at="2025-07-29T18:07:58 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC024_verifyTransferFundsPageLoads()[pri:1, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:07:58 IST" name="TC024_verifyTransferFundsPageLoads" finished-at="2025-07-29T18:07:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC024_verifyTransferFundsPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:07:58 IST" name="tearDown" finished-at="2025-07-29T18:07:59 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:07:59 IST" name="setup" finished-at="2025-07-29T18:08:03 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:08:03 IST" name="setUpTest" finished-at="2025-07-29T18:08:04 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC025_verifySuccessfulFundTransfer()[pri:2, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:08:04 IST" name="TC025_verifySuccessfulFundTransfer" finished-at="2025-07-29T18:08:05 IST" duration-ms="722" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Transfer failed or confirmation message incorrect. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Transfer failed or confirmation message incorrect. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.TransferFundsTest.TC025_verifySuccessfulFundTransfer(TransferFundsTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC025_verifySuccessfulFundTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TransferFundsTest@7b98f307]" started-at="2025-07-29T18:08:05 IST" name="tearDown" finished-at="2025-07-29T18:08:05 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TransferFundsTest -->
+      <class name="tests.CustomeCareTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:30 IST" name="setup" finished-at="2025-07-29T18:07:35 IST" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC018_verifyCustomerCareNavigation()[pri:1, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:35 IST" name="TC018_verifyCustomerCareNavigation" finished-at="2025-07-29T18:07:36 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC018_verifyCustomerCareNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:36 IST" name="tearDown" finished-at="2025-07-29T18:07:36 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:36 IST" name="setup" finished-at="2025-07-29T18:07:39 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC019_submitValidCustomerCareForm()[pri:2, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:39 IST" name="TC019_submitValidCustomerCareForm" finished-at="2025-07-29T18:07:42 IST" duration-ms="3687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC019_submitValidCustomerCareForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:42 IST" name="tearDown" finished-at="2025-07-29T18:07:43 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:43 IST" name="setup" finished-at="2025-07-29T18:07:47 IST" duration-ms="4028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC020_submitWithoutMandatoryFields()[pri:3, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:47 IST" name="TC020_submitWithoutMandatoryFields" finished-at="2025-07-29T18:07:53 IST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC020_submitWithoutMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomeCareTest@6cf0e0ba]" started-at="2025-07-29T18:07:53 IST" name="tearDown" finished-at="2025-07-29T18:07:53 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CustomeCareTest -->
+      <class name="tests.OpenAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:09 IST" name="setup" finished-at="2025-07-29T18:08:10 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC017_openSavingsAccount()[pri:1, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:10 IST" name="TC017_openSavingsAccount" finished-at="2025-07-29T18:08:16 IST" duration-ms="5909" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at pages.OpenAccountPage.selectFromAccount(OpenAccountPage.java:46)
+at tests.OpenAccountTest.TC017_openSavingsAccount(OpenAccountTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC017_openSavingsAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:16 IST" name="tearDown" finished-at="2025-07-29T18:08:16 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:16 IST" name="setup" finished-at="2025-07-29T18:08:20 IST" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC018_openCheckingAccount()[pri:2, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:20 IST" name="TC018_openCheckingAccount" finished-at="2025-07-29T18:08:23 IST" duration-ms="3541" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at pages.OpenAccountPage.selectFromAccount(OpenAccountPage.java:46)
+at tests.OpenAccountTest.TC018_openCheckingAccount(OpenAccountTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC018_openCheckingAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:24 IST" name="tearDown" finished-at="2025-07-29T18:08:24 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:24 IST" name="setup" finished-at="2025-07-29T18:08:25 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC019_verifyAccountNumberDisplayed()[pri:3, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:25 IST" name="TC019_verifyAccountNumberDisplayed" finished-at="2025-07-29T18:08:30 IST" duration-ms="5167" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 19893
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+at pages.OpenAccountPage.selectFromAccount(OpenAccountPage.java:46)
+at tests.OpenAccountTest.TC019_verifyAccountNumberDisplayed(OpenAccountTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC019_verifyAccountNumberDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:31 IST" name="tearDown" finished-at="2025-07-29T18:08:31 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:31 IST" name="setup" finished-at="2025-07-29T18:08:35 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC020_negativeOpenAccountWithoutFromAccount()[pri:4, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:35 IST" name="TC020_negativeOpenAccountWithoutFromAccount" finished-at="2025-07-29T18:08:47 IST" duration-ms="12325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC020_negativeOpenAccountWithoutFromAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenAccountTest@5b7a5baa]" started-at="2025-07-29T18:08:47 IST" name="tearDown" finished-at="2025-07-29T18:08:47 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpenAccountTest -->
+      <class name="tests.AccountOverviewTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AccountOverviewTest@75d4a5c2]" started-at="2025-07-29T18:09:41 IST" name="setup" finished-at="2025-07-29T18:09:45 IST" duration-ms="3987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC021_viewAccountsOverviewSuccessfully()[pri:1, instance:tests.AccountOverviewTest@75d4a5c2]" started-at="2025-07-29T18:09:45 IST" name="TC021_viewAccountsOverviewSuccessfully" finished-at="2025-07-29T18:09:49 IST" duration-ms="3997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC021_viewAccountsOverviewSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountOverviewTest@75d4a5c2]" started-at="2025-07-29T18:09:49 IST" name="tearDown" finished-at="2025-07-29T18:09:50 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AccountOverviewTest@75d4a5c2]" started-at="2025-07-29T18:09:50 IST" name="setup" finished-at="2025-07-29T18:09:51 IST" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC022_verifyAccountNumbersDisplayed()[pri:2, instance:tests.AccountOverviewTest@75d4a5c2]" started-at="2025-07-29T18:09:51 IST" name="TC022_verifyAccountNumbersDisplayed" finished-at="2025-07-29T18:09:57 IST" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC022_verifyAccountNumbersDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AccountOverviewTest@75d4a5c2]" started-at="2025-07-29T18:09:57 IST" name="tearDown" finished-at="2025-07-29T18:09:57 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountOverviewTest -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:47 IST" name="setup" finished-at="2025-07-29T18:08:49 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC014_registerWithMissingFields()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:49 IST" name="TC014_registerWithMissingFields" finished-at="2025-07-29T18:08:52 IST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC014_registerWithMissingFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:52 IST" name="tearDown" finished-at="2025-07-29T18:08:52 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:52 IST" name="setup" finished-at="2025-07-29T18:08:56 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC013_registerWithValidDetails()[pri:1, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:56 IST" name="TC013_registerWithValidDetails" finished-at="2025-07-29T18:08:59 IST" duration-ms="3252" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Registration failed or message not found. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Registration failed or message not found. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.RegisterTest.TC013_registerWithValidDetails(RegisterTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC013_registerWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:59 IST" name="tearDown" finished-at="2025-07-29T18:08:59 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:08:59 IST" name="setup" finished-at="2025-07-29T18:09:03 IST" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC015_registerWithPasswordMismatch()[pri:3, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:09:03 IST" name="TC015_registerWithPasswordMismatch" finished-at="2025-07-29T18:09:04 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC015_registerWithPasswordMismatch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@776aec5c]" started-at="2025-07-29T18:09:04 IST" name="tearDown" finished-at="2025-07-29T18:09:05 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.FooterLinkTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FooterLinkTest@557caf28]" started-at="2025-07-29T18:09:57 IST" name="setup" finished-at="2025-07-29T18:09:58 IST" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openAboutUsLinkInNewTab_TC009()[pri:0, instance:tests.FooterLinkTest@557caf28]" started-at="2025-07-29T18:09:58 IST" name="openAboutUsLinkInNewTab_TC009" finished-at="2025-07-29T18:10:01 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAboutUsLinkInNewTab_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterLinkTest@557caf28]" started-at="2025-07-29T18:10:01 IST" name="tearDown" finished-at="2025-07-29T18:10:01 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FooterLinkTest@557caf28]" started-at="2025-07-29T18:10:01 IST" name="setup" finished-at="2025-07-29T18:10:04 IST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openServicesLinkInNewTab_TC010()[pri:0, instance:tests.FooterLinkTest@557caf28]" started-at="2025-07-29T18:10:04 IST" name="openServicesLinkInNewTab_TC010" finished-at="2025-07-29T18:10:04 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openServicesLinkInNewTab_TC010 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterLinkTest@557caf28]" started-at="2025-07-29T18:10:04 IST" name="tearDown" finished-at="2025-07-29T18:10:05 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FooterLinkTest -->
+      <class name="tests.BillPayTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:05 IST" name="setup" finished-at="2025-07-29T18:10:06 IST" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:06 IST" name="setUpTest" finished-at="2025-07-29T18:10:10 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC026_verifyBillPayPageLoads()[pri:1, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:10 IST" name="TC026_verifyBillPayPageLoads" finished-at="2025-07-29T18:10:10 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC026_verifyBillPayPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:10 IST" name="tearDown" finished-at="2025-07-29T18:10:10 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:10 IST" name="setup" finished-at="2025-07-29T18:10:11 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:11 IST" name="setUpTest" finished-at="2025-07-29T18:10:15 IST" duration-ms="3719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC027_submitValidBillPayment()[pri:2, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:15 IST" name="TC027_submitValidBillPayment" finished-at="2025-07-29T18:10:15 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC027_submitValidBillPayment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:15 IST" name="tearDown" finished-at="2025-07-29T18:10:15 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:15 IST" name="setup" finished-at="2025-07-29T18:10:17 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:17 IST" name="setUpTest" finished-at="2025-07-29T18:10:20 IST" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC028_submitWithMismatchedAccountNumbers()[pri:3, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:20 IST" name="TC028_submitWithMismatchedAccountNumbers" finished-at="2025-07-29T18:10:21 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC028_submitWithMismatchedAccountNumbers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BillPayTest@408d971b]" started-at="2025-07-29T18:10:21 IST" name="tearDown" finished-at="2025-07-29T18:10:21 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BillPayTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

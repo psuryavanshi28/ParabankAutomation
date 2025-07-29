@@ -21,12 +21,12 @@ It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates fram
 ## Project Structure
 
 ```
-SauceDemoAutomationFramework/
+ParaBank Framework/
 ├── src/
 │   ├── main/
 │   │   └── java/
 │   │       ├── base/         # BaseTest, BasePage, DriverFactory
-│   │       ├── pages/        # LoginPage, InventoryPage, etc.
+│   │       ├── pages/        # LoginPage, TransferPage, etc.
 │   │       ├── utils/        # ScreenshotUtil, ConfigReader, WaitHelper
 │   │       └── listeners/    # TestListener for ExtentReports & Screenshots
 │   └── test/

@@ -68,6 +68,18 @@ mvn clean test
 
 ---
 
+# ParaBank Automation
+
+This repo contains:
+- Selenium UI tests for ParaBank
+- API automation tests using Rest Assured and Postman mock server
+
+## Structure
+
+- `ui/`: Selenium tests
+- `api/`: API tests for Login, Transfer Funds, and Accounts
+  
+
 ## 🔄 Jenkins CI/CD Integration
 
 This project supports Jenkins integration for continuous test execution.

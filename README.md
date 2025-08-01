@@ -1,7 +1,7 @@
-# Parabank Automation Framework
+# 🧪 Parabank Full Stack Automation Framework
 
-This is a real-world automation testing framework developed using **Selenium WebDriver**, **Java**, **TestNG**, and **Maven**, built on the **Page Object Model (POM)** design pattern.  
-It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates framework design, execution flow, reporting, and CI/CD integration.
+This is a **Full Stack Automation Project** built with self-learning and hands-on practice. It automates both **UI and API** flows of the [Parabank Application](https://parabank.parasoft.com/), with integration-ready structure for **CI/CD pipelines**. 
+It covers 30+ test cases and demonstrates framework design, execution flow.
 
 ---
 
@@ -48,7 +48,15 @@ ParaBank Framework/
 - 📊 ExtentReports for rich HTML reporting  
 - ⚙️ Wait handling and reusable utility methods  
 - 🧪 TestNG suite for execution control  
-- 🔁 Ready for integration with Jenkins or GitHub Actions  
+- 🔁 Ready for integration with Jenkins or GitHub Actions
+
+  ### 🔹 API Automation (Mock Server)
+
+- ✅ Login Endpoint (POST `/login`)
+- 💸 Transfer Funds (POST `/transfer`)
+- 📂 Get Account List (GET `/accounts`)
+
+  All API endpoints are tested using a **Postman Mock Server**.
 
 ---
 
